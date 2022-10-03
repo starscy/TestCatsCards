@@ -19,11 +19,14 @@ export const gallerySlice = createSlice({
       addToFavorite:(state,action)=>{
         state.favorite = [...state.favorite,action.payload]
       },
+      removeFromFavorite:(state,action)=>{
+        state.favorite = state.favorite.filter(item=>item.id !== action.payload)
+      }
   
     },
   })
 
-  export const { fetchPics,deletePic,addToFavorite } = gallerySlice.actions;
+  export const { fetchPics,deletePic,addToFavorite,removeFromFavorite } = gallerySlice.actions;
 export default gallerySlice.reducer;
 
 
