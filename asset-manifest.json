@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/TestCatsCards/static/css/main.23d12920.css",
-    "main.js": "/TestCatsCards/static/js/main.39fb8475.js",
+    "main.js": "/TestCatsCards/static/js/main.e165c068.js",
     "index.html": "/TestCatsCards/index.html",
     "main.23d12920.css.map": "/TestCatsCards/static/css/main.23d12920.css.map",
-    "main.39fb8475.js.map": "/TestCatsCards/static/js/main.39fb8475.js.map"
+    "main.e165c068.js.map": "/TestCatsCards/static/js/main.e165c068.js.map"
   },
   "entrypoints": [
     "static/css/main.23d12920.css",
-    "static/js/main.39fb8475.js"
+    "static/js/main.e165c068.js"
   ]
 }
