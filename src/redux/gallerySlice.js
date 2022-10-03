@@ -20,7 +20,7 @@ export const gallerySlice = createSlice({
         state.favorite = [...state.favorite,action.payload]
       },
       removeFromFavorite:(state,action)=>{
-        state.favorite = state.favorite.filter(item=>item.id !== action.payload)
+        state.favorite = state.favorite.filter(item=>item.id !== action.payload.id)
       }
   
     },
